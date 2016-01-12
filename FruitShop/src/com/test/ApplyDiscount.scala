@@ -19,7 +19,7 @@ class ApplyDiscount(var apples:Int,var oranges:Int) {
     
     else if(oranges>2){
       
-      sum+=(oranges/3)*0.25+(oranges%3)*0.25
+      sum+=(oranges/3)*2*0.25+(oranges%3)*0.25
    
       
     }

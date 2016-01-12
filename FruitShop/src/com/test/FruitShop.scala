@@ -29,7 +29,7 @@ object FruitShop {
      printf("1.Apple:(one each)\t"+":60p\n") 
      printf("2.Orange:(one each)\t"+":25p\n")
     
-     var l= List("apple","apple","orange","2","orange","apple","apple")
+     var l= List("apple","apple","orange","2","orange","orange","orange","orange","apple","apple")
      var invalid_items=List(null)
 
      //assuming the list is readily available 
