@@ -35,7 +35,7 @@ class ApplyDiscount(var apples:Int,var oranges:Int) {
       
       
     
-    0.0
+    sum
     
   } 
   

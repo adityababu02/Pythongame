@@ -66,9 +66,11 @@ object FruitShop {
   
   println("invalid items:"+invalid_Items)
   
-   println("Please pay :"+ showPrice(apple_Count)(orange_Count)+"pp")
+   println("Price before Discount :"+ showPrice(apple_Count)(orange_Count)+"pp")
   
+  println(" ----applying discount------------")
   
+  println("Please pay price (after discount):"+new ApplyDiscount(apple_Count,orange_Count).price+"pp")
   
   }
  
